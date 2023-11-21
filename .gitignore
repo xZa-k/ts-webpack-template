@@ -129,6 +129,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-server/deno.lock
-
-test/venv
+# lock files
+server/package-lock.json
+client/package-lock.json
+package-lock.json
